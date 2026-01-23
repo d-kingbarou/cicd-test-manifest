@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: darren606/demo-app
+  tag: "1.0.0"  # initial tag
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
