@@ -1,11 +1,8 @@
 replicaCount: 1
-
 image:
   repository: darren606/demo-app
-  tag: "1.1.2"
+  tag: "1.1.3"
   pullPolicy: IfNotPresent
-
 service:
   type: ClusterIP
   port: 3000
-
